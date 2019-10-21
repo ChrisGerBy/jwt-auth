@@ -1,0 +1,41 @@
+#chat .message {
+    padding: 10px 15px;
+    margin: 10px auto;
+    text-align: left;
+    background-color: #B7E58C;
+    display: grid;
+    grid-template-columns: auto  20px 20px 50px;
+    grid-column-gap: 10px;
+    box-sizing: border-box;
+    min-height: 38px;
+}
+
+#chat .time {
+    font-size: 0.8em;
+}
+
+#chat .user-name {
+    color: #0020A0;
+    font-weight: bold;
+}
+
+.delete-button {
+    background-color: #CECECE;
+    width: 50px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.delete-button:hover {
+    cursor: pointer;
+}
+
+.active-user {
+    background-color: #AED6F1;
+    color: #0020A0;
+}
+
+.bad-input {
+    outline: 2px solid #ff0000;
+}
